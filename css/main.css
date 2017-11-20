@@ -1,0 +1,89 @@
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+/*------tablero-----*/
+body {
+  background-image: url('../assets/img/totoro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background: #0080FF;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.li-1 {
+  display: inline-block;
+
+}
+
+
+
+
+/*-----------Estilos de el container------------*/
+#container{
+  margin-top: 100px;
+  margin-left: 20px;
+  /*border: 2px solid green*/
+
+
+}
+#box {
+  /*border: 2px solid pink;*/
+  display: block;
+}
+
+#tareas {
+  /*margin-top: 10px;*/
+  margin-left: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #FF66CC;
+  padding: 15px;
+}
+
+/*----------estilos a nuestro boton- e input-----------*/
+input {
+  display:block;
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  outline: none;
+  border-color: #9933CC;
+  padding: 10px;
+}
+
+button {
+  border-radius: 20px;
+  background: #00FF00;
+  font-size: 20px;
+  display: block;
+  margin: 3px;
+  outline: none;
+  padding: 5px;
+}
+
+p {
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid gray;
+  margin: 5px;
+  display: inline-block;
+  padding: 10px;
+}
+
+
+
+div {
+  display: inline-block;
+  margin-right: 10px;
+}
